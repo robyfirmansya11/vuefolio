@@ -11,7 +11,9 @@ subtitle: `IT Infrastructure & IT Networking, IT Engineering, Software Developme
     linkedin: 'https://linkedin.com/in/robyfirmansya11',
     github: 'https://github.com/robyfirmansya11',
     instagram: 'https://instagram.com/robyfirmansya11',
-    facebook: 'https://facebook.com/robyfirmansya'
+    facebook: 'https://facebook.com/robyfirmansya',
+      youtube: '',
+  twitter: '' 
   },
   home: 'Home'
 }

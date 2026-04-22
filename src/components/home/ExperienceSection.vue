@@ -12,7 +12,7 @@
             <span class="inline-block text-balance pb-2 text-base sm:text-wrap">
               {{ $t('experience.description') }}
             </span>
-            <a href="/cv.pdf" title="Download resume" target="_blank">
+            <a href="/CV_Roby_Firmansyah.pdf" title="Download resume" target="_blank">
               <GlassButton title="Download resume" class="mx-auto mb-4">
                 <span class="px-2"> {{ $t('experience.download_button') }} </span>
               </GlassButton>

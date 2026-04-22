@@ -2,7 +2,7 @@
 import { onMounted, ref } from 'vue'
 import GlassButton from '@/components/GlassButton.vue'
 // Get your key for free in: https://web3forms.com/
-const WEB3FORMS_ACCESS_KEY = 'YOUR_ACCESS_KEY'
+const WEB3FORMS_ACCESS_KEY = 'ee74dab0-2ebc-426f-9d54-3f533c668a4d'
 const name = ref('')
 const email = ref('')
 const message = ref('')
@@ -42,19 +42,22 @@ const submitForm = async () => {
     return
   }
   sending.value = true
-  const response = await fetch('https://api.web3forms.com/submit', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      Accept: 'application/json'
-    },
-    body: JSON.stringify({
-      access_key: WEB3FORMS_ACCESS_KEY,
-      name: name.value,
-      email: email.value,
-      message: message.value
-    })
+const response = await fetch('https://api.web3forms.com/submit', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json',
+    Accept: 'application/json'
+  },
+  body: JSON.stringify({
+    access_key: WEB3FORMS_ACCESS_KEY,
+    name: name.value,
+    email: email.value,
+    message: message.value,
+    subject: "New Message from Portfolio Website",
+    from_name: name.value,
+    replyto: email.value
   })
+})
   const result = await response.json()
   if (result.success) {
     console.log(result)

@@ -1,11 +1,11 @@
 import type { Projects } from '@/types'
 
 const projects: Projects = {
-  title: 'Projects',
+  title: 'Projects and Experience',
   source: 'GitHub',
   website: 'Website',
   main: [
-    {
+    /* {
       name: 'Vuefolio',
       techstack: ['Vuejs', 'i18n', 'TypeScript', 'Tailwind CSS'],
       image: 'vuefolio_cover.webp',
@@ -13,29 +13,29 @@ const projects: Projects = {
         'A portfolio template built with Vue.js, i18n, and TypeScript. It is highly customizable, easy to set up, and thoroughly optimized for performance, SEO, and accessibility.',
       src: 'https://github.com/ralodev/vuefolio',
       url: 'https://vuefolio.netlify.app/'
+    }, */
+     {
+      name: 'ITBox - Certificate Full Stack Javascript Level Advanced',
+      techstack: ['Database', 'Javascript', 'API', 'Fullstack', 'Postman', 'PostgreSQL'],
+      image: 'Javascript-Advanced.webp',
+      description:
+        'This course focuses on building web applications from start to finish. Topics typically include HTML, CSS, JavaScript, frontend frameworks (like React), backend development with Node.js, databases, and deployment. It is suitable for those who want to become web developers or create their own applications. The outcome is usually a complete web project (frontend + backend). The advantage is high industry demand and freelance opportunities. The challenge is that it requires consistency in learning programming.',
+      src: '',
+      url: 'https://itbox.id/'
     },
     {
-      name: 'AlienSignalDetector',
-      techstack: ['Morse', 'Windows 95', 'WebAssembly', 'Firebase'],
-      image: 'project_cover.webp',
+      name: 'ITBox - Certificate Computer Network Course Level Advanced ',
+      techstack: ['Network', 'TCP/IP', 'OSI Model', 'Cisco Packet Tracer', 'Router Configuration'],
+      image: 'NetworkCourse_advanced.webp',
       description:
-        'Revolutionary app that uses the latest in web technologies to scan cosmic microwave background radiation for alien signals. Perfect for amateur astronomers and sci-fi enthusiasts who want to be the first to tweet about extraterrestrial contact.',
-      src: 'https://github.com/johndoe/aliensignaldetector',
-      url: 'https://detect-alien-signals-now.com/'
-    },
-    {
-      name: 'QuantumCoffeeBrewer',
-      techstack: ['Quantum Computing', 'Q#', 'Azure', 'Amazon S3'],
-      image: 'project_cover.webp',
-      description:
-        'Harness the power of quantum computing to brew the perfect cup of coffee. This app calculates the optimal temperature and brewing time based on quantum mechanics, promising the most entangled and superpositioned caffeine molecules.',
-      src: 'https://github.com/johndoe/quantumcoffeebrewer',
-      url: 'https://quantumcoffeebrewer.com/'
+        'This course focuses on the fundamentals and practical aspects of computer networking. Topics include IP addressing, subnetting, routing, device configuration (Mikrotik/Cisco), and troubleshooting. It is ideal for careers such as IT Support, Network Engineer, or Infrastructure Specialist. It emphasizes hands-on configuration rather than coding. The advantage is strong relevance to real-world IT operations. The limitation is that it does not cover application development.',
+      src: '',
+      url: 'https://itbox.id/'
     }
   ],
   // You can leave this array empty
   other: [
-    {
+   /*  {
       name: 'MemeGeneratorX',
       techstack: ['Binary', 'Notepad ++', 'MS Paint'],
       description:
@@ -66,7 +66,7 @@ const projects: Projects = {
         "An app for plant lovers that translates your plants' needs into plain English. Ever wondered if your fern is thirsty or your cactus is lonely? Let PlantWhisperer tell you what they're really thinking!",
       url: 'https://github.com/johndoes/PlantWhisperer',
       src: 'https://github.com/johndoes/PlantWhisperer'
-    }
+    } */
   ]
 }
 

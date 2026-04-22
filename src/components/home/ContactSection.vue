@@ -104,7 +104,7 @@
                 </template>
               </GlassButton>
             </a>
-            <a
+           <!--  <a
               v-if="$t('hero.profiles.youtube') != ''"
               :href="$t('hero.profiles.youtube')"
               target="_blank"
@@ -115,8 +115,8 @@
                   <YoutubeIcon class="h-6 w-6" />
                 </template>
               </GlassButton>
-            </a>
-            <a
+            </a> -->
+ <!--            <a
               v-if="$t('hero.profiles.twitter') != ''"
               :href="$t('hero.profiles.twitter')"
               target="_blank"
@@ -127,7 +127,7 @@
                   <TwitterIcon class="h-6 w-6" />
                 </template>
               </GlassButton>
-            </a>
+            </a> -->
             <a
               v-if="$t('hero.profiles.instagram') != ''"
               :href="$t('hero.profiles.instagram')"
@@ -173,8 +173,8 @@ import GithubIcon from '@/components/icons/GithubIcon.vue'
 import LinkedinIcon from '@/components/icons/LinkedinIcon.vue'
 import ContactForm from './ContactSection-Form.vue'
 import { ref } from 'vue'
-import YoutubeIcon from '@/components/icons/YoutubeIcon.vue'
-import TwitterIcon from '@/components/icons/TwitterIcon.vue'
+// import YoutubeIcon from '@/components/icons/YoutubeIcon.vue'
+// import TwitterIcon from '@/components/icons/TwitterIcon.vue'
 import InstagramIcon from '@/components/icons/InstagramIcon.vue'
 import FacebookIcon from '@/components/icons/FacebookIcon.vue'
 

@@ -12,7 +12,7 @@
         class="dropdown-toggle z-10 inline-flex flex-shrink-0 items-center gap-x-2 rounded-lg border border-gray-200 bg-gray-50/50 px-4 py-2.5 text-center text-sm font-semibold uppercase text-gray-800 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-100"
         type="button"
       >
-        <component :is="selectedLanguageFlag" />
+        <component :is="selectedLanguageFlag" class="h-5 w-5 rounded-full shadow-sm transition hover:scale-110" />
         {{ selectedLanguage }}
         <ChevronIcon />
       </button>
@@ -28,7 +28,7 @@
               class="flex w-full items-center gap-2 px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
               @click="changeLanguage(option)"
             >
-              <Component :is="option.flagIcon" /> {{ option.language }}
+              <component :is="option.flagIcon" class="h-5 w-5 rounded-full shadow-sm transition hover:scale-110" /> {{ option.language }}
             </button>
           </li>
         </ul>
@@ -41,7 +41,7 @@
 import { ref, shallowRef } from 'vue'
 import { useI18n } from 'vue-i18n'
 import EnglishIcon from './icons/EnglishIcon.vue'
-import SpanishIcon from './icons/SpanishIcon.vue'
+import BahasaIcon from './icons/BahasaIcon.vue'
 import ChevronIcon from './icons/ChevronIcon.vue'
 // import FrenchIcon from './icons/FrenchIcon.vue'
 // import JapaneseIcon from './icons/JapaneseIcon.vue'
@@ -52,7 +52,8 @@ const selectedLanguage = ref('EN')
 const locale = useI18n()
 const languageOptions = [
   { language: 'English', flagIcon: EnglishIcon, code: 'en' },
-  { language: 'Español', flagIcon: SpanishIcon, code: 'es' }
+
+  { language: 'Bahasa', flagIcon: BahasaIcon, code: 'id' }
   // { language: 'Français', flagIcon: FrenchIcon, code: 'fr' },
   // { language: 'Japanese', flagIcon: JapaneseIcon, code: 'jp' }
 ]

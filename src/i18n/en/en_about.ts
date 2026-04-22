@@ -3,73 +3,56 @@ import type { About } from '@/types'
 const about: About = {
   title: 'About',
   summary:
-    "By day ☀️, I'm a software engineer with a knack for turning complex problems into simple solutions. By night 🌙, I moonlight as a connoisseur of fine memes and a hopeful astronaut. With a penchant for puns and a deep love for all things tech, I've successfully convinced my plants to tweet when they need watering. \n\n A seasoned juggler of tasks and an enthusiast of all things tech, I've mastered the art of turning coffee ☕ into code and chaos into order.",
+    "By day ☀️, I work as a software engineer, focused on transforming complex problems into simple, effective solutions. By night 🌙, I value quality time with my family, often sharing stories from my daily experiences. With a strong passion for technology and a natural inclination toward problem-solving, I enjoy helping others find practical solutions that make their work and lives easier. ☕ Experienced in managing multiple responsibilities, I take pride in turning challenges into structured solutions—whether through code, systems, or well-organized processes.  into code and chaos into order.",
   education: {
     title: 'Education',
     list: [
       {
-        title: 'Bachelor of Science in Time Traveling',
-        institution: 'University of Parallel Universes',
-        url: 'http://www.universityofparalleluniverses.com/',
+        title: 'Associate Degree of Management Information Systems',
+        institution: 'University of Bina Sarana Informatika',
+        url: 'http://www.ubsi.ac.id/',
         description:
-          'An intensive course that combines quantum physics, nostalgia studies, and the history of science fiction to prepare students for a career in time traveling. Specialized modules on avoiding time paradoxes and blending in at medieval banquets.',
-        startDate: '2018-08',
-        endDate: '2023-07',
+          'The Management Informatics Study Program at Universitas Bina Sarana Informatika (UBSI) is an academic field that integrates information technology with business and management needs. Students are equipped with skills in programming, database management, information system development, and an understanding of organizational business processes.',
+        startDate: '2014-07',
+        endDate: '2017-07',
         courses: [
-          'Quantum Mechanics 101',
-          'Advanced Techniques in Chrono-Zoom',
-          'Paradox Management'
+          'Web Programming',
+          'Database Management',
+          'Information Systems Analysis and Design',
+          'Project Management'
         ]
       },
       {
-        title: 'Bootcamp of Arts in Pirate Studies',
-        institution: 'Caribbean School of Buccaneering',
-        url: 'http://www.caribbeanschoolofbuccaneering.com/',
+        title: 'Senior Vocational High School of Technical Computer and Network',
+        institution: 'SMK Walisongo Jakarta',
+        url: 'http://www.walisongo.sch.id/',
         description:
-          'A rigorous program that delves into the golden age of piracy. Students learn not only the history and economics of piracy but also engage in practical ship-sailing and treasure-mapping workshops. Ideal for those seeking a career in maritime reenactment or treasure hunting.',
-        startDate: '2018-08',
-        endDate: '2023-07',
-        courses: ['Pirate Ethics', 'Navigation of the 17th Century', 'Economics of Plunder']
+          'Computer and Network Engineering (TKJ) in vocational high schools (SMK) is a specialization program that focuses on learning the fundamentals of computers and computer networks through both theory and practical application. Students are equipped with knowledge of computer assembly, operating system installation, as well as network configuration and maintenance.',
+        startDate: '2011-07',
+        endDate: '2014-07',
+        courses: ['Web Design', 'Computer Networking', 'Hardware & Software Maintenance']
       }
     ]
   },
-  achievements: {
-    title: 'Achievements',
-    list: [
-      {
-        title: "World's Best Armchair Astronaut",
-        date: '2023-04',
-        url: 'https://website/news/worlds-best-armchair-astronaut',
-        awarder: 'Galactic Couch Potato Association',
-        summary:
-          "Awarded for outstanding achievements in the field of amateur space exploration from the comfort of one's living room. Recognized for over 500 hours of logged telescope time pointed at the TV screen, simulating a journey across the cosmos while never actually leaving the sofa."
-      },
-      {
-        title: 'Supreme Overlord of Spreadsheet Sorcery',
-        date: '2022-11',
-        url: 'https://website/news/spreadsheet-sorcery',
-        awarder: 'International League of Data Wizards',
-        summary:
-          'Honored for transforming ordinary spreadsheets into dazzling arrays of formulas and charts that not only compute complex datasets but also tell compelling stories, perform light shows, and occasionally predict the weather.'
-      },
-      {
-        title: 'Grand Champion of Procrastination',
-        date: '2024-01',
-        url: 'https://website/news/procrastination-champ',
-        awarder: 'Global Guild of Time Wasters',
-        summary:
-          'Awarded for successfully putting off a 10-minute task for over 6 months, a remarkable demonstration of procrastination skills, turning the act of delaying into an art form, and finally completing the task during a commercial break.'
-      },
-      {
-        title: 'Lifetime Achievement in Snack Innovation',
-        date: '2023-03',
-        url: 'https://website/news/snack-innovation',
-        awarder: 'Snack Lovers Federation',
-        summary:
-          'Recognized for a lifelong dedication to creating the perfect snack combinations that balance salty, sweet, crunchy, and gooey in one bite. Famous for inventing the chocolate-covered pretzel marshmallow nacho.'
-      }
-    ]
-  }
+ achievements: {
+  title: 'Achievements',
+  list: [
+    {
+      title: 'Marawis Art Performance Competition',
+      date: '2014-03',
+      awarder: 'South Jakarta Schools Competition',
+      summary:
+        'Participated in a Marawis traditional art performance competition involving schools across South Jakarta.'
+    },
+    {
+      title: 'National Jingle Competition – PT Transpacific Finance',
+      date: '2022-07',
+      awarder: 'PT Transpacific Finance',
+      summary:
+        'Participated in a national jingle competition organized by PT Transpacific Finance, involving both internal employees and external participants.'
+    }
+  ]
+}
 }
 
 export default about

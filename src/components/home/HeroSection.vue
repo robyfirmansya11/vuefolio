@@ -8,11 +8,11 @@
       >
         {{ $t('hero.title') }}
       </h1>
-      <p
-        class="open-sans mx-auto max-w-[60ch] text-pretty text-base sm:text-lg md:text-xl lg:max-w-[75ch]"
-      >
-        {{ $t('hero.subtitle') }}
-      </p>
+<p
+  class="open-sans mx-auto max-w-[60ch] text-base sm:text-lg md:text-xl whitespace-pre-line"
+>
+  {{ $t('hero.subtitle') }}
+</p>
       <div class="flex justify-center gap-x-3">
         <RouterLink to="#contact">
           <GlassButton title="Contact">
@@ -42,30 +42,6 @@
           <GlassButton size="small" bg="bg-sky-700" title="LinkedIn profile">
             <template #icon>
               <LinkedinIcon class="h-6 w-6" />
-            </template>
-          </GlassButton>
-        </a>
-        <a
-          v-if="$t('hero.profiles.youtube') != ''"
-          :href="$t('hero.profiles.youtube')"
-          target="_blank"
-          rel="noopener"
-        >
-          <GlassButton size="small" bg="bg-red-700" title="Youtube channel">
-            <template #icon>
-              <YoutubeIcon class="h-6 w-6" />
-            </template>
-          </GlassButton>
-        </a>
-        <a
-          v-if="$t('hero.profiles.twitter') != ''"
-          :href="$t('hero.profiles.twitter')"
-          target="_blank"
-          rel="noopener"
-        >
-          <GlassButton size="small" bg="bg-slate-800" title="Twitter profile">
-            <template #icon>
-              <TwitterIcon class="h-6 w-6" />
             </template>
           </GlassButton>
         </a>

@@ -9,10 +9,10 @@ const experience: Experience = {
   year: 'year | years',
   list: [
     {
-      company: 'Apple Inc.',
+      company: 'PT Artabumi Sentra Industri.',
       position: 'Chief Executive Officer',
-      url: 'http://www.applebutwithmorebananas.com',
-      startDate: '2011-03',
+      url: 'http://www.artabumisentraindustri.com',
+      startDate: '2024-07',
       endDate: 'Present',
       highlights: [
         'Invented the iFruit series, which includes the revolutionary Apple Banana: the first smartphone you can also eat.',
@@ -20,20 +20,20 @@ const experience: Experience = {
         'Launched the Macbook Airless: the first laptop that actually floats in the air.'
       ],
       description:
-        "Since taking the helm at Apple Inc., I've steered the company through waves of innovation while wearing a superhero cape in all executive meetings. My leadership style focuses on unleashing creativity, fostering an environment where software engineers are encouraged to wear pajamas to boost productivity, and replacing all office chairs with bean bags for ergonomic reasons."
+        "Since joining PT Artabumi Sentra Industri as an IT Officer, I have driven a range of initiatives to enhance the company’s information technology capabilities. These include developing and maintaining the company website, building and managing internal servers, optimizing network performance, and creating design assets for business needs. In addition, I am responsible for maintaining office equipment such as printers, photocopiers, and CCTV systems, as well as managing IT asset specifications and inventory to ensure efficient and reliable operations.."
     },
     {
-      company: 'Google LLC',
-      position: 'Global Head of Easter Eggs',
-      url: 'http://www.googolplexthegame.com',
-      startDate: '2015-04',
-      endDate: 'Present',
+      company: 'PT Transpacific Finance',
+      position: 'IT Supervisor',
+      url: 'http://www.transfinance.co.id',
+      startDate: '2018-03',
+      endDate: '2024-06',
       highlights: [
         'Created the world’s first AI-powered Easter egg that only appears when users correctly guess the number of jelly beans in a virtual jar',
         'Organized an international hide-and-seek tournament using Google Earth, which increased user engagement by 5000%.'
       ],
       description:
-        'As the Global Head of Easter Eggs at Google LLC, I have championed the infusion of fun and surprises into our products. My work ensures that every search and click unveils a potential smile, enhancing user interaction and deepening brand loyalty. I have also been pivotal in the development of the ‘Snack Search’ feature, where the Google AI suggests snacks based on users’ browsing history, significantly improving afternoon productivity.'
+        'I joined PT Transpacific Finance at a time when the company had not yet established an IT division, where I served as the first IT professional. As the company grew, I progressed into a supervisory role, leading and managing a team. Throughout my tenure, I have made significant contributions, including playing a key role in the company’s expansion from 6 to 35 branches. In this process, the IT division was instrumental in developing infrastructure, systems/applications, and strengthening overall IT security.'
     }
   ]
 }

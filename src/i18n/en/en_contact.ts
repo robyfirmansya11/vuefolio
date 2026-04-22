@@ -6,7 +6,7 @@ const contact: Contact = {
     'If you want to get in touch with me, you can do it through my social media or via email.',
   social: 'There are my social media accounts and my email address:',
   //Keep the brackets and quotes around @ -> {'@'}
-  email: "johndoe{'@'}mail.com",
+  email: "robyfirmansyah011{'@'}gmail.com",
   copy: 'Copy',
   copied: 'Copied',
   form: 'Alternatively, you can use this form to send me a message:',

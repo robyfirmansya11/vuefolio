@@ -47,9 +47,9 @@ import ChevronIcon from './icons/ChevronIcon.vue'
 // import JapaneseIcon from './icons/JapaneseIcon.vue'
 
 const langDropdown = ref(false)
-const selectedLanguageFlag = shallowRef(EnglishIcon)
-const selectedLanguage = ref('EN')
 const locale = useI18n()
+const selectedLanguageFlag = shallowRef(locale.locale.value === 'id' ? BahasaIcon : EnglishIcon)
+const selectedLanguage = ref(locale.locale.value.toUpperCase())
 const languageOptions = [
   { language: 'English', flagIcon: EnglishIcon, code: 'en' },
 
@@ -63,7 +63,7 @@ interface OptionObject {
   code: string
 }
 const changeLanguage = (option: OptionObject) => {
-  selectedLanguage.value = option.code
+  selectedLanguage.value = option.code.toUpperCase()
   selectedLanguageFlag.value = option.flagIcon
   locale.locale.value = option.code.toLocaleLowerCase()
   langDropdown.value = false

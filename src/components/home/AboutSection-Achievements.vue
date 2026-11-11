@@ -11,7 +11,7 @@
         <div
           class="relative w-full ps-5 transition-all duration-500 before:absolute before:bottom-0 before:left-0 before:top-[5px] before:w-1 before:bg-base-200 hover:bg-base-100"
         >
-          <time class="source-sans text-sm uppercase text-gray-800 sm:float-end">
+          <time v-if="achievement.date" class="source-sans text-sm uppercase text-gray-800 sm:float-end">
             {{ getDate(achievement.date) }}</time
           >
           <a

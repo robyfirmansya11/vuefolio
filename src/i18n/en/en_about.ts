@@ -2,57 +2,51 @@ import type { About } from '@/types'
 
 const about: About = {
   title: 'About',
-  summary:
-    "By day ☀️, I work as a software engineer, focused on transforming complex problems into simple, effective solutions. By night 🌙, I value quality time with my family, often sharing stories from my daily experiences. With a strong passion for technology and a natural inclination toward problem-solving, I enjoy helping others find practical solutions that make their work and lives easier. ☕ Experienced in managing multiple responsibilities, I take pride in turning challenges into structured solutions—whether through code, systems, or well-organized processes.  into code and chaos into order.",
+  summary: 'IT professional with 8+ years of experience in IT support, infrastructure administration, and web development. Experienced in supporting head office and branch operations, planning IT budgets, coordinating vendors, and building practical internal tools. I enjoy making technology dependable, useful, and easier for teams to work with.',
+  skills: {
+    title: 'Technical toolkit',
+    list: [
+      'PHP', 'JavaScript', 'Dart', 'HTML', 'CSS', 'Laravel', 'CodeIgniter', 'Vue.js', 'React.js', 'Next.js', 'Flutter', 'Tailwind CSS', 'MySQL', 'MariaDB', 'PostgreSQL', 'SQLite', 'LAN/WAN/WLAN', 'VPN', 'TCP/IP', 'DNS', 'DHCP', 'MikroTik', 'Cisco', 'Juniper', 'Ubiquiti', 'Windows Server 2016/2022', 'Active Directory', 'IIS', 'TrueNAS', 'Synology', 'Linux', 'Git & GitHub', 'Node.js', 'IT procurement', 'Asset management'
+    ]
+  },
   education: {
     title: 'Education',
     list: [
       {
-        title: 'Associate Degree of Management Information Systems',
-        institution: 'University of Bina Sarana Informatika',
-        url: 'http://www.ubsi.ac.id/',
-        description:
-          'The Management Informatics Study Program at Universitas Bina Sarana Informatika (UBSI) is an academic field that integrates information technology with business and management needs. Students are equipped with skills in programming, database management, information system development, and an understanding of organizational business processes.',
+        title: 'Associate Degree in Management Informatics',
+        institution: 'Bina Sarana Informatika University',
+        url: 'https://www.bsi.ac.id/',
+        description: 'Diploma (D3) in Management Informatics.',
         startDate: '2014-07',
         endDate: '2017-07',
-        courses: [
-          'Web Programming',
-          'Database Management',
-          'Information Systems Analysis and Design',
-          'Project Management'
-        ]
+        courses: ['Information Systems', 'Programming', 'Databases']
       },
       {
-        title: 'Senior Vocational High School of Technical Computer and Network',
+        title: 'Computer and Network Engineering',
         institution: 'SMK Walisongo Jakarta',
-        url: 'http://www.walisongo.sch.id/',
-        description:
-          'Computer and Network Engineering (TKJ) in vocational high schools (SMK) is a specialization program that focuses on learning the fundamentals of computers and computer networks through both theory and practical application. Students are equipped with knowledge of computer assembly, operating system installation, as well as network configuration and maintenance.',
+        url: 'https://www.walisongo.sch.id/',
+        description: 'Vocational education in computer and network engineering.',
         startDate: '2011-07',
         endDate: '2014-07',
-        courses: ['Web Design', 'Computer Networking', 'Hardware & Software Maintenance']
+        courses: ['Computer Networking', 'Hardware', 'Operating Systems']
       }
     ]
   },
- achievements: {
-  title: 'Achievements',
-  list: [
-    {
-      title: 'Marawis Art Performance Competition',
-      date: '2014-03',
-      awarder: 'South Jakarta Schools Competition',
-      summary:
-        'Participated in a Marawis traditional art performance competition involving schools across South Jakarta.'
-    },
-    {
-      title: 'National Jingle Competition – PT Transpacific Finance',
-      date: '2022-07',
-      awarder: 'PT Transpacific Finance',
-      summary:
-        'Participated in a national jingle competition organized by PT Transpacific Finance, involving both internal employees and external participants.'
-    }
-  ]
-}
+  achievements: {
+    title: 'Certifications',
+    list: [
+      {
+        title: 'Computer Network Course - Advanced',
+        awarder: 'ITBox',
+        summary: 'Advanced computer networking certification.'
+      },
+      {
+        title: 'Full Stack JavaScript - Advanced',
+        awarder: 'ITBox',
+        summary: 'Advanced full stack JavaScript certification.'
+      }
+    ]
+  }
 }
 
 export default about

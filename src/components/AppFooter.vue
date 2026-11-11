@@ -157,7 +157,7 @@
 
   <a
     rel="noopener noreferrer"
-    href="https://linkedin.com/in/robyfirmansya"
+    href="https://linkedin.com/in/robyfirmansya11"
     target="_blank"
     title="LinkedIn"
     class="flex items-center p-1"
@@ -178,7 +178,7 @@
         </div>
       </div>
     </div>
-    <div class="py-3 text-center text-sm">© 2026 Roby Firmansyah.</div>
+    <div class="py-3 text-center text-sm">© {{ new Date().getFullYear() }} Roby Firmansyah.</div>
   </footer>
 </template>
 

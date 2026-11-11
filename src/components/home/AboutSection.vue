@@ -23,21 +23,24 @@
         <h1 class="section__title relative">
           {{ $t('about.title') }}
         </h1>
-        <div class="mb-10 mt-10 inline-block items-center text-center sm:mt-0">
-          <div name="photo-frame" class="group relative mb-8 inline-block md:mb-0 md:block">
+        <div class="mb-10 mt-10 grid items-center gap-8 text-center sm:mt-0 md:grid-cols-[220px_1fr] md:text-left">
+          <div name="photo-frame" class="group relative mx-auto mb-4 inline-block md:mb-0">
             <img
-              src="@/assets/img/rfimerah.jpg"
-              class="relative z-[1] float-left mx-8 mb-2 h-56 w-50 rotate-6 rounded-lg border-gray-400 duration-300 md:group-hover:rotate-0"
-              alt=""
+              src="/roby-firmansyah.png"
+              class="relative z-[1] h-64 w-52 rounded-2xl object-cover object-top shadow-xl ring-4 ring-white duration-300 group-hover:-rotate-2"
+              alt="Portrait of Roby Firmansyah"
             />
-            <div
-              class="absolute h-[244px] w-[170px] translate-x-[22px] translate-y-[-10px] rotate-6 rounded-lg bg-white shadow-xl shadow-primary-800/10 duration-300 md:group-hover:rotate-0"
-            ></div>
           </div>
-          <p class="open-sans text-start text-base sm:text-lg">
+          <p class="open-sans text-left text-base leading-8 text-slate-700 sm:text-lg">
             {{ $t('about.summary') }}
           </p>
         </div>
+        <section class="mb-8 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+          <h2 class="source-sans mb-4 text-xl font-semibold text-primary-900">{{ $t('about.skills.title') }}</h2>
+          <div class="flex flex-wrap gap-2">
+            <span v-for="skill in skills" :key="skill" class="rounded-full bg-primary-50 px-3 py-1.5 text-sm text-primary-900">{{ skill }}</span>
+          </div>
+        </section>
         <EducationPanel />
         <AchievementsPanel />
       </div>
@@ -48,6 +51,9 @@
 <script lang="ts" setup>
 import EducationPanel from './AboutSection-Education.vue'
 import AchievementsPanel from './AboutSection-Achievements.vue'
+import { useLocalizedData } from '@/composables/LocalizedData'
+
+const { data: skills } = useLocalizedData<string[]>('about.skills.list')
 </script>
 
 <style scoped>

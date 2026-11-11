@@ -63,7 +63,7 @@
                 </span>
                 <span
                   v-else
-                  class="contact@ralo.dev source-sans flex items-center gap-x-1 text-base"
+                  class="source-sans flex items-center gap-x-1 text-base"
                 >
                   <svg
                     class="my-auto h-4 w-4 text-white"
@@ -178,7 +178,7 @@ import { ref } from 'vue'
 import InstagramIcon from '@/components/icons/InstagramIcon.vue'
 import FacebookIcon from '@/components/icons/FacebookIcon.vue'
 
-const email = 'contact@ralo.dev'
+const email = 'robyfirmansyah011@gmail.com'
 const copied = ref(false)
 
 function copyEmail() {

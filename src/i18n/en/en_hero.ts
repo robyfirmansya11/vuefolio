@@ -1,21 +1,24 @@
 import type { Hero } from '@/types'
 
 const hero: Hero = {
-  title: 'Hello, my name is Roby Firmansyah',
-subtitle: `IT Infrastructure & IT Networking, IT Engineering, Software Development, IT Operations & Supervision`,
+  title: 'Roby Firmansyah',
+  subtitle: 'IT Officer · Systems & Network Administrator · Web Developer',
+  intro: 'Over 8 years managing IT operations, infrastructure, user support, and web application development.',
   name: 'Roby Firmansyah',
-  url: 'https://robyfirmansyah.my.id/',
-  contact_button: 'Get in touch',
-  //If a profile hast an empty string '', the button wont be rendered
+  url: 'https://www.robyfirmansyah.my.id/',
+  contact_button: 'Let’s talk',
   profiles: {
     linkedin: 'https://linkedin.com/in/robyfirmansya11',
     github: 'https://github.com/robyfirmansya11',
     instagram: 'https://instagram.com/robyfirmansya11',
     facebook: 'https://facebook.com/robyfirmansya',
-      youtube: '',
-  twitter: '' 
+    youtube: '',
+    twitter: ''
   },
-  home: 'Home'
+  home: 'Home',
+  availability: 'IT operations · systems · web',
+  eyebrow: 'Hello, I’m',
+  years: 'years of experience'
 }
 
 export default hero

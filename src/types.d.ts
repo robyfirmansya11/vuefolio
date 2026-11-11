@@ -10,7 +10,7 @@ export interface EducationEntry {
 
 export interface AchievementEntry {
   title: string
-  date: string
+  date?: string
   url?: string
   awarder: string
   summary: string
@@ -29,6 +29,10 @@ export interface Achievements {
 export interface About {
   title: string
   summary: string
+  skills: {
+    title: string
+    list: string[]
+  }
   education: Education
   achievements: Achievements
 }
@@ -84,6 +88,10 @@ export interface Experience {
 export interface Hero {
   title: string
   subtitle: string
+  intro: string
+  availability: string
+  eyebrow: string
+  years: string
   name: string
   url: string
   contact_button: string

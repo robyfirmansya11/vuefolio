@@ -11,7 +11,7 @@ import messages from './i18n/messages'
 
 const i18n = createI18n({
   legacy: false,
-  locale: 'en',
+  locale: 'id',
   messages
 })
 
